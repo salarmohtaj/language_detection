@@ -13,7 +13,7 @@ class language_detection:
          self.svdmatrix=pickle.load(open(__location__+"//data//svdmatrix.MODEL",'rb'))
 
 
-    def lnaguage_list(self):
+    def language_list(self):
         lan_list=[]
         for item in self.id_of_languages.keys():
             lan_list.append((self.id_of_languages[item]['id'],self.id_of_languages[item]['name']))
