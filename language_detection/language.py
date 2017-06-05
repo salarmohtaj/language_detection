@@ -27,12 +27,12 @@ class language_detection:
         index=self.detect_similarity(svd_matrix)
         return index
 
-    def langauge_id(self,text):
+    def language_id(self,text):
         index=self.index_finder(text)
         print "The Language ID is: "+self.id_of_languages[index]["id"]
         return self.id_of_languages[index]["id"]
 
-    def langauge_name(self,text):
+    def language_name(self,text):
         index=self.index_finder(text)
         print "The Language Name is: "+self.id_of_languages[index]["name"]
         return self.id_of_languages[index]["name"]
