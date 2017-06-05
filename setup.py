@@ -15,5 +15,5 @@ setup(name='language_detection',
 	packages=['language_detection'],
 	package_data={'language_detection': ['data//*.MODEL']},
 	include_package_data=True,
-      install_requires=['sklearn', 'pickle' , 'os'],
+      install_requires=['sklearn'],
       zip_safe=False)
